@@ -1,0 +1,31 @@
+{
+  "name": "eslint-react-typescript-addons",
+  "version": "1.0.1",
+  "description": "eslint npm module specific to work with react and typescript",
+  "main": "/dist/index.js",
+  "bin": {
+    "eslint-react-typescript-addons": "/dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --minify",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "npm",
+    "typescript",
+    "eslint"
+  ],
+  "author": "Wilmer Rodriguez <wilmerr09@gmail.com>",
+  "homepage": "https://github.com/WilmerRCz/eslint-react-typescript-addons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilmerRCz/eslint-react-typescript-addons"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "tsup": "^6.7.0"
+  }
+}
