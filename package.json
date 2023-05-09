@@ -1,6 +1,6 @@
 {
   "name": "eslint-react-typescript-addons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint npm module specific to work with react and typescript",
   "main": "/dist/index.js",
   "bin": {
